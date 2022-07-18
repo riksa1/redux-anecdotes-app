@@ -31,7 +31,7 @@ jobs:
           heroku_email: "riko.saarinen24@gmail.com"
           healthcheck: "https://redux-anecdotes-app.herokuapp.com/health"
           checkstring: "ok"
-          rollbackonhealthcheckfailed: true
+          #rollbackonhealthcheckfailed: true
 
   tag_release:
     needs: [simple_deployment_pipeline]
