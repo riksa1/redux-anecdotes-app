@@ -14,4 +14,4 @@ jobs:
       - name: Check the deployed service URL
         uses: jtalk/url-health-check-action@v2
         with:
-          url: "https://react-anecdotes-app.herokuapp.com/anecdotes"
+          url: "https://redux-anecdotes-app.herokuapp.com/anecdotes"
