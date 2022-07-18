@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getId } from '../reducers/anecdoteReducer'
 
-const baseUrl = 'http://localhost:3000/anecdotes'
+const baseUrl = '/anecdotes'
 
 const getAll = async () => {
   const response = await axios.get(baseUrl)
